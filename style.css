@@ -149,65 +149,109 @@ a:hover {
 /* Sections */
 
 section {
-    padding-top: 4vh;
-    height: 96vh;
-    margin: 0 160px;
-    box-sizing: border-box;
-    min-height: fit-content;
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 160px;
+  box-sizing: border-box;
+  min-height: fit-content;
 }
 
 .section-container {
-    display: flex;
+  display: flex;
 }
 
 /* Profile Sections */
 
 #profile {
-    display: flex;
-    justify-content: center;
-    gap: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
 }
 
 .section__pic-container {
-    display: flex;
-    height: 300px;
-    width: 300px;
-    margin: auto 0;
+  display: flex;
+  height: 300px;
+  width: 300px;
+  margin: auto 0;
 }
 
 .section__text {
-    align-self: center;
-    text-align: center;
+  align-self: center;
+  text-align: center;
 }
 
 .section__text p {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .section__text__p1 {
-    text-align: center;
+  text-align: center;
 }
 
-.section__text__p1 {
-    font-size: 28px;
-    margin-bottom: 16px;
+.section__text__p2 {
+  font-size: 28px;
+  margin-bottom: 16px;
 }
 
 .title {
-    font-size: 48px;
-    text-align: center;
+  font-size: 48px;
+  text-align: center;
 }
 
 #social-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-    gap: 16px;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 16px;
 }
 
 /* Icons */
 
 .icon {
-    cursor: pointer;
-    height: 32px;
+  cursor: pointer;
+  height: 32px;
+}
+
+/* Buttons */
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn {
+  font-weight: 600;
+  transform: all 300ms ease;
+  padding: 16px;
+  width: 128px;
+  border-radius: 32px;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(53, 53, 53) 1.6px solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-color-1:hover {
+    background: rgb(0,0,0);
+}
+
+.btn-color-2 {
+    background: none;
+}
+
+.btn-color-2:hover {
+    border: rgb(255,255,255) 1.6px solid;
 }
