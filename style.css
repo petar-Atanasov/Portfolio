@@ -255,3 +255,55 @@ section {
 .btn-color-2:hover {
     border: rgb(255,255,255) 1.6px solid;
 }
+
+/* About section */
+
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers, .about-details-container{
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 32px;
+}
+
+.arrow {
+  position: absolute;
+  right: -80px;
+  bottom: 40px;
+}
+
+.details-container {
+  padding: 24px;
+  flex: 1;
+  background: white;
+  border-radius: 32px;
+  border: rgb(53, 53, 53) 8px solid;
+  border-color: rgb(163,163,163);
+  text-align: center;
+}
+
+.section-container{
+  gap: 64px;
+  height: 80%;
+}
+
+.section__pic-container{
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
